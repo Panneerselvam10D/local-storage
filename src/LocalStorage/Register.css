@@ -1,0 +1,85 @@
+
+body{
+    background: rgb(37,150,190);
+    background: linear-gradient(90deg, rgba(37,150,190,1) 0%, rgba(255,255,255,0) 100%);
+    margin: 0;
+}
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    color: rgb(37,150,190);
+
+    
+}
+
+
+button{
+    background-color: whitesmoke;
+    color: rgb(37,150,190);
+    margin: 20px 0;
+    border: 1px solid rgb(37,150,190);
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 150px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+button:hover{
+    color:whitesmoke;
+    background-color: rgb(37,150,190);
+}
+
+.input-grp{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-grp input{
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(37,150,190); 
+    border-radius: 3px;
+}
+
+.input-grp input:focus{
+    outline:0;
+}
+.input-grp label{
+    color: rgb(37,150,190);
+}
+
+.error{
+    color: red;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.input-grp .success input{
+    color: green;
+
+}
+
+.input-grp .failure input{
+    color: red;
+
+}
+.regLogin{
+    
+    margin-left: 110px;;
+}
+.regLogin :nth-child(1){
+    color: rgb(37,150,190);
+    text-decoration: underline;
+    font-weight: 400%;
+    cursor: pointer;
+}
